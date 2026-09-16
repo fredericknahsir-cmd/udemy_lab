@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients</title>
+    <style>
+       div{
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        border: 1px solid black;
+       }
+       .linear{
+        background-image: linear-gradient(black, red, yellow);
+       }
+       .radial{
+        background-image: radial-gradient(black 30%, white 31%, transparent 40%), url(black-hole.jpg);
+       }
+    </style>
+</head>
+<body>
+   <div class="linear"></div>
+   <div class="radial"></div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.element{
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+    background-color: #0071FF;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
